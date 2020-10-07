@@ -1,0 +1,98 @@
+# Site settings
+
+source: src
+title: محمد زینلی # site title
+description: >- # site description
+  یادداشت‌های محمد زینلی   <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
+lang: fa # default lang
+timezone: Asia/Tehran # set your timezone
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+repo: https://github.com/mhdzli/simorgh # site repo [optional]
+mode: dark # default theme "dark" | "light"
+
+# Profile settings
+author:
+  name: محمد زینلی # author name
+  bio: >- # tell to the world
+    یک همسایه در دنیای وبلاگ‌های فارسی، یک آدم آشنای معمولی که شاید یه روز تو تاکسی کنار هم نشسته باشیم.
+
+    پروژه‌های کوچک من در
+    <a href="https://github.com/mhdzli/" target="_blank" rel="noopener">گیتهاب</a>.
+  username: # general username
+  github: mhdzli # github username
+  lbry: https://lbry.tv/@mzeinali:c # lbry url
+  pixelfed: https://pixelfed.de/mzeinali #pixelfed url
+  mastodon: # mastodon urls
+    first: https://fosstodon.org/@mzeinali
+    second: https://mastodon.social/@mzeinali
+  email: mzeinali@tutanota.com # email adress
+  avatar: /assets/img/avatar.jpg # change with your own avatar
+
+# URL settings
+url: "https://zmim.ir" #
+baseurl:
+permalink: /:title/
+google_analytics: # leave it blank if not wish
+fb_appid:
+
+# Collection setting
+collections:
+  posts:
+    output: true
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Homepage limit posts
+number_of_posts: 5
+
+# Build settings
+# theme: klise
+sass:
+  style: compressed
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - lighthouse.png
+  - klise-*.gem
+  - klise.gemspec
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-postfiles
