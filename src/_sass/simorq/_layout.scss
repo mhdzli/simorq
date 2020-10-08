@@ -19,7 +19,7 @@
 
   a#mode {
     float: right;
-    left: 8px;
+    right: 8px;
     top: 6px;
     position: relative;
     clear: both;
@@ -123,7 +123,7 @@
     .menu-icon {
       display: block;
       position: absolute;
-      right: 0;
+      left: 0;
       width: 50px;
       height: 23px;
       line-height: 0;

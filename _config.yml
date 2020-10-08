@@ -1,9 +1,9 @@
 # Site settings
 
 source: src
-title: محمد زینلی # site title
+title: سیمرغ # site title
 description: >- # site description
-  یادداشت‌های محمد زینلی   <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
+  یک تم فارسی برای Jekyll.  کد سیمرغ در <a href="https://github.com/mhdzli/simorq" target="_blank" rel="noopener">گیت‌هاب</a>.
 lang: fa # default lang
 timezone: Asia/Tehran # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -12,24 +12,28 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: محمد زینلی # author name
+  name: اسم شما # author name
   bio: >- # tell to the world
-    یک همسایه در دنیای وبلاگ‌های فارسی، یک آدم آشنای معمولی که شاید یه روز تو تاکسی کنار هم نشسته باشیم.
+    یک تم Jekyll برای وبلاگ فارسی. اگر تم روشن را بیشتر می‌پسندید، روی خورشید بالای صفحه سمت راست کلیک کنید.
 
-    پروژه‌های کوچک من در
-    <a href="https://github.com/mhdzli/" target="_blank" rel="noopener">گیتهاب</a>.
-  username: # general username
-  github: mhdzli # github username
-  lbry: https://lbry.tv/@mzeinali:c # lbry url
-  pixelfed: https://pixelfed.de/mzeinali #pixelfed url
+    لینک این پروژه در
+    <a href="https://github.com/mhdzli/simorq" target="_blank" rel="noopener">گیت‌هاب</a>.
+
+  username:  your_username # general username
+  github: your_github_username # github username
+  twitter: your_twitter_username # twitter username
+  # you can add your accounts of other social media  but you need to edit footer.html in _includes directory and add other sosial media links based on existing  templates
+  
+  lbry: https://your_instance.address/@your_username # lbry url
+  pixelfed: https://your_instance.address/your_username # your pixelfed url
   mastodon: # mastodon urls
-    first: https://fosstodon.org/@mzeinali
-    second: https://mastodon.social/@mzeinali
-  email: mzeinali@tutanota.com # email adress
+    first: https://your_instance.address/@your_username
+    second: 
+  email: your@email.address # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
-url: "https://zmim.ir" #
+url: "https://example.anything" # your domain 
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
@@ -95,4 +99,5 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-postfiles
+  - jekyll-postfile
+  - jekyll-jalali

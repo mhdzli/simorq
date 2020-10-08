@@ -8,6 +8,13 @@
 	توئیت‌ها
     </a>
   {% endif %}
+
+  {% if site.author.github %}
+    <a class="footer item" href="https://github.com/{{ site.author.github }}">
+        <i class="fab fa-github"></i>
+	گیت‌هاب
+    </a>
+  {% endif %}
   
   {% if site.author.mastodon.first %}
     <a class="footer item" href="{{ site.author.mastodon.first }}">
@@ -50,7 +57,7 @@
   {% endif %}
       
   {% if site.author.email %}
-    <a class="footer item" href="{{ site.email }}">
+    <a class="footer item" href="mailto:{{ site.email }}">
 	<i class="fa fa-envelope-open"></i>
 	تماس
     </a>
