@@ -99,5 +99,5 @@ exclude:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-postfile
+  - jekyll-postfiles
   - jekyll-jalali
