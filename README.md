@@ -67,7 +67,7 @@ $ bundle exec jekyll serve
 [![payping](../master/assets/payping.gif)](https://www.payping.ir/@mzeinali)
 
 
-[![hamibash](../master/assets/hamibash.gif)](https://www.hamibash.com/mzeinali)
+[![hamibash](../master/assets/hamibash.png)](https://www.hamibash.com/mzeinali)
 
 
 </div>
