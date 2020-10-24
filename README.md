@@ -60,4 +60,14 @@ $ bundle exec jekyll serve
 
 یک پروژه آزاد با مجوز [MIT](LICENSE).
 
+## هواداری
+
+اگر از این پروژه بهره بردید می‌توانید از آن حمایت کنید:
+
+[![payping](../master/assets/payping.gif)](https://www.payping.ir/@mzeinali)
+
+
+[![hamibash](../master/assets/hamibash.gif)](https://www.hamibash.com/mzeinali)
+
+
 </div>
