@@ -142,13 +142,16 @@ ul {
     text-align: -webkit-match-parent;
   }
   li::before {
-    content: "\261C";
+    content: "\2660";
     display: inline-block;
     top: -1px;
     width: 1.2em;
     position: relative;
     margin-right: -1.3em;
     font-weight: 700;
+  }
+  ul {
+    li::before {content: "\2663";}
   }
 }
 
@@ -175,7 +178,7 @@ ol {
 ul,
 ol {
   margin-top: 0;
-  margin-left: $spacing-full;
+  margin-right: $spacing-full;
 }
 
 li {
