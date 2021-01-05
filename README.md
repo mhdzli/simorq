@@ -39,7 +39,7 @@
 
 ```bash
 $ git clone https://github.com/mhdzli/simorq.git
-$ cd jekyll-klise
+$ cd simorq
 $ bundle install
 $ bundle exec jekyll serve
 ```
