@@ -1,5 +1,3 @@
-<div dir="rtl">
-
 # سیمرغ
 
 سیمرغ قرار است یک تم Jekyll برای فارسی نویسی باشد. یک تم مینیمال که با تغییر فایل کانفیگ به راحتی بتوانید آن را برای راه‌اندازی وبلاگ شخصی خودتان استفاده کنید.
@@ -34,18 +32,12 @@
 
 راه انداختن سرور local روی سیستم شخصی:
 
-</div>
-<div dir=ltr >
-
 ```bash
 $ git clone https://github.com/mhdzli/simorq.git
 $ cd simorq
 $ bundle install
 $ bundle exec jekyll serve
 ```
-</div>
-
-<div dir=rtl>
 
 با آدرس `localhost:4000` می‌توانید نتیجه را در مرورگرتان مشاهده کنید.
 
@@ -68,6 +60,3 @@ $ bundle exec jekyll serve
 
 
 [![hamibash](../master/assets/hamibash.png)](https://www.hamibash.com/mzeinali)
-
-
-</div>
