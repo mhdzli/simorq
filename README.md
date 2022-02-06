@@ -55,13 +55,13 @@ cd simorq
 پس از آن میباید فایل image ساخته شود. دقت کنید این کار فقط نیاز است یک بار انجام شود و برای بارهای بعد می‌توانید از ایمیج ساخته شده استفاده کنید.
 
 ```bash
-docker build -t "simorq:Dockerfile" .  
+scripts/docker_build_image.sh
 ```
 
 ‍سپس می‌توانید با دستور زیر سایت را روی سیستم لوکال خود مشاهده کنید.
 
 ```bash
-./docker_run.sh
+scripts/docker_run.sh
 ```
 
 ## محدودیت‌ها
