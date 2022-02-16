@@ -43,6 +43,27 @@ $ bundle exec jekyll serve
 
 [![دیپلوی در Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mhdzli/simorq) [![دیپلوی با Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/mhdzli/simorq)
 
+## نصب با استفاده از داکر
+
+در این روش نیازی به نصب هیچ افزونه و زبان برنامه نویسی ای نیست. صرفا میبایست داکر روی سیستم شما نصب باشد.
+
+```bash
+git clone https://github.com/mhdzli/simorq.git
+cd simorq
+```
+
+پس از آن میباید فایل image ساخته شود. دقت کنید این کار فقط نیاز است یک بار انجام شود و برای بارهای بعد می‌توانید از ایمیج ساخته شده استفاده کنید.
+
+```bash
+scripts/docker_build_image.sh
+```
+
+‍سپس می‌توانید با دستور زیر سایت را روی سیستم لوکال خود مشاهده کنید.
+
+```bash
+scripts/docker_run.sh
+```
+
 ## محدودیت‌ها
 
 - از آنجا که پلاگین  [`jekyll-postfiles`](https://github.com/nhoizey/jekyll-postfiles#compatibility) و  [`jekyll-jalali`](https://github.com/mehdisadeghi/jekyll-jalali)  در `github pages` پشتیبانی نمی‌شوند امکان استفاده  روی گیتهاب وجود ندارد اما میتوانید از  [`netlify.com`](https://netlify.com)، [`vercel.com`](https://vercel.com) یا [`surge.sh`](https://surge.sh) استفاده کنید.
