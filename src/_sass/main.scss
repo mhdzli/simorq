@@ -1,6 +1,6 @@
 // Fonts preferences
-$sans-family: Vazir, sans-serif;
-$mono-family: 'Vazir Code', 'Vazir Code Hack', monospace;
+$sans-family: Vazirmatn, sans-serif;
+$mono-family: 'Comic Mono', monospace;
 $base-font-size: 16px;
 $medium-font-size: $base-font-size * 0.938;
 $small-font-size: $base-font-size * 0.875;
@@ -16,6 +16,7 @@ $bold-weight: 700;
 $text-base-color: #434648;
 $text-link-blue: #003fff;
 $text-link-blue-active: #0036c7;
+$box: #c6f0e4;
 
 $black: #0d122b;
 $light: #ececec;
@@ -27,6 +28,7 @@ $white: #fff;
 $dark-text-base-color: #c7bebe;
 $dark-text-link-blue: #ff5277;
 $dark-text-link-blue-active: #ff2957;
+$dark-box: #303030;
 
 $dark-black: #131418;
 $dark-white: #eaeaea;
@@ -60,4 +62,4 @@ $on-widescreen: 1152px;
 
 // Import sass files
 @import "simorq/fonts", "simorq/fontawesome", "simorq/base", "simorq/layout", "simorq/post",
-  "simorq/miscellaneous", "simorq/syntax", "simorq/dark", "simorq/rtl";
+  "simorq/miscellaneous", "simorq/syntax", "simorq/dark", "simorq/rtl", "simorq/mastodon";
