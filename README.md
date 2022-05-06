@@ -9,7 +9,7 @@
 برای فارسی کردن تاریخ‌ها از پلاگین [`jekyll-jalali`](https://github.com/mehdisadeghi/jekyll-jalali) استفاده کردم که [مهدی صادقی](https://github.com/mehdisadeghi/) گرامی نوشته و کلی مطلب مفید هم در [وبلاگش](https://mehdix.ir/) دارد که اگر تصمیم دارید از Jekyll استفاده کنید حتما بهش سر بزنید.
 
 
-در این تم از فونت‌های [`وزیر`](https://github.com/rastikerdar/vazir-font) و [`وزیر کد`](https://github.com/rastikerdar/vazir-code-font) استفاده شده است که از کارهای زیبای آقای [راستی‌کردار](https://github.com/rastikerdar) است که از ایشان بسیار ممنونم.
+در این تم از فونت‌های [`وزیر متن`](https://github.com/rastikerdar/vazirmatn)  استفاده شده است که از کارهای زیبای آقای [راستی‌کردار](https://github.com/rastikerdar) است که از ایشان بسیار ممنونم و [`Comic Mono`](https://dtinth.github.io/comic-mono-font/) برای کدهای درون متن.
 
 ## قابلیت‌ها
 
@@ -20,12 +20,13 @@
 -  ساختار مناسب برای عکس‌ها ([`jekyll-postfiles`](https://github.com/nhoizey/jekyll-postfiles))
 -  نقشه سایت ([`jekyll-sitemap`](https://github.com/jekyll/jekyll-sitemap))
 -  خوراک rss ([`jekyll-feed`](https://github.com/jekyll/jekyll-feed))
--  هایلایت کدها ([`Vazir Code Font`](https://github.com/rastikerdar/vazir-code-font)) با تشکر مجدد از جناب [راستی کردار](https://github.com/rastikerdar/) 
+-  هایلایت کدها ([`Comic Mono`](https://dtinth.github.io/comic-mono-font/))
 -  صفحه بندی پست‌ها
 -  آنالیز گوگل اگر دوست دارید استفاده کنید. (نکنید 😠)
 -  استفاده از W3C **👽**
 -  استفاده از فونت Awesome **👽**
 -  سبک و سریع **🚄**
+- برای افزودن بخش دیدگاه‌ها با استفاده از ماستودون [این پست](https://www.zmim.ir/mastodon-comments/) را بخوانید.
 
 
 ## نصب

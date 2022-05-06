@@ -147,11 +147,16 @@ ul {
     top: -1px;
     width: 1.2em;
     position: relative;
-    margin-right: -1.3em;
     font-weight: 700;
   }
   ul {
     li::before {content: "\2663";}
+    ul {
+      li::before {content: "\2666";}
+      ul {
+        li::before {content: "\2665";}
+      }
+    }
   }
 }
 
@@ -166,7 +171,7 @@ ol {
       display: inline-block;
       width: 1em;
       margin-left: 0.5em;
-      margin-right: -1.6em;
+      margin-right: 0.5em;
       text-align: right;
       direction: rtl;
       font-weight: $bold-weight;
@@ -179,6 +184,7 @@ ul,
 ol {
   margin-top: 0;
   margin-right: $spacing-full;
+  margin-left: $spacing-full;
 }
 
 li {

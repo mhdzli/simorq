@@ -156,8 +156,7 @@
 
       &::before {
         content: "#";
-        position: absolute;
-        left: -3px;
+        position: relative;
         width: 1em;
         font-weight: $bold-weight;
       }
@@ -254,8 +253,4 @@
       border-top: 1px solid $light;
     }
   }
-}
-
-.post-updated-at {
-  font-family: "Vazir", "Ubuntu mono", "monospace";
 }

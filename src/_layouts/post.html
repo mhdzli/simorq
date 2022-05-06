@@ -82,7 +82,7 @@ layout: compress
 
     {% if page.modified %}
       <small class="post-updated-at">به روز رسانی در  
-              {% assign date_format = site.minima.date_format | default: "%d %b، %Y" %}{{ page.date | jdate: date_format }}
+              {% assign date_format = site.minima.date_format | default: "%d %b، %Y" %}{{ page.modified | jdate: date_format }}
       </small>
     {% endif %}
     {% if page.next or page.previous %}

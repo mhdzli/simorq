@@ -166,7 +166,9 @@
         {%- if menus %}
           {%- for menu in menus -%} 
             {%- if url == menu.url -%}
-              <a class="menu-link active" href="{{ menu.url }}">{{ menu.title }}</a>
+              <a class="menu-link active" href="{{ menu.url }}">
+                  <b>{{ menu.title }}</b>
+              </a>
             {%- else -%} 
               {%- if menu.external -%}
                 <a
@@ -174,17 +176,20 @@
                   href="{{ menu.url }}"
                   target="_blank"
                   rel="noopener"
-                  >{{ menu.title }}</a
+                  ><b>{{ menu.title }}</b></a
                 >
               {%- else -%}
-                <a class="menu-link" href="{{ menu.url }}">{{ menu.title }}</a>
+                <a class="menu-link" href="{{ menu.url }}">
+                    <b>{{ menu.title }}</b>
+                </a>
               {%- endif -%} 
             {%- endif -%} 
           {%- endfor -%}
         {%- else -%}
-          <a class="menu-link {% if url == '/' %}active{% endif %}" href="/">خانه</a>
-          <a class="menu-link {% if url == '/tags/' %}active{% endif %}" href="/">برچسب‌ها</a>
-          <a class="menu-link {% if url == '/about/' %}active{% endif %}" href="/about">درباره</a>
+          <a class="menu-link {% if url == '/' %}active{% endif %}" href="/"><b>خانه</b></a>
+          <a class="menu-link {% if url == '/tags/' %}active{% endif %}" href="/"><b>برچسب‌ها</b></a>
+          <a class="menu-link {% if url == '/wiki/' %}active{% endif %}" href="/"><b>ویکی</b></a>
+          <a class="menu-link {% if url == '/about/' %}active{% endif %}" href="/about"><b>درباره</b></a>
         {%- endif -%}
         <a class="menu-link rss" href="/feed.xml">
           <svg
