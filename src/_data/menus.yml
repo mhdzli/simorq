@@ -1,16 +1,16 @@
-- title: خانه
+- title: <i class="fa fa-home"> <span class="fa-icon-text"> خانه</span> </i>
   url: /
   external: false
 
-- title: بایگانی
+- title: <i class="fa fa-archive"> <span class="fa-icon-text"> بایگانی</span> </i>
   url: /archive/
   external: false
 
-- title: برچسب‌ها
+- title: <i class="fa fa-tag">  <span class="fa-icon-text"> برچسب‌ها</span> </i>
   url: /tags/
   external: false
 
-- title: درباره
+- title: <i class="fa fa-address-card">  <span class="fa-icon-text"> درباره</span> </i>
   url: /about/
   external: false # set true if you using external link, see below
 
