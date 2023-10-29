@@ -25,12 +25,13 @@ group :jekyll_plugins do
   gem 'jekyll-postfiles', '~> 3.1'
   gem "jekyll-jalali"
   gem "jekyll-target-blank"
-  # gem 'tzinfo'
-  # gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+  gem 'tzinfo', platforms: [:mingw, :x64_mingw, :mswin, :mswin64, :jruby]
+  gem 'tzinfo-data', platforms: [:mingw, :x64_mingw, :mswin, :mswin64, :jruby]
 end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-# gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# Windows does not include zoneinfo files, so bundle tzinfo and tzinfo-data gems
+# gem 'tzinfo', platforms: [:mingw, :x64_mingw, :mswin, :mswin64, :jruby]
+# gem "tzinfo-data", platforms: [:mingw, :x64_mingw, :mswin, :mswin64, :jruby]
 
 # Performance-booster for watching directories on Windows
 # gem "wdm", "~> 0.1.0" if Gem.win_platform?
