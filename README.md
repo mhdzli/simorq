@@ -67,7 +67,7 @@ scripts/docker_run.sh
 
 ## محدودیت‌ها
 
-- از آنجا که پلاگین [`jekyll-postfiles`](https://github.com/nhoizey/jekyll-postfiles#compatibility) و [`jekyll-jalali`](https://github.com/mehdisadeghi/jekyll-jalali) در `github pages` پشتیبانی نمی‌شوند امکان استفاده روی گیتهاب وجود ندارد اما میتوانید از [`netlify.com`](https://netlify.com)، [`vercel.com`](https://vercel.com) یا [`surge.sh`](https://surge.sh) استفاده کنید. (به روز رسانی: با توجه به افزوده شدن `jekyll` به `GitHub Actions` می‌توانید از سیمرغ روی گیتهاب هم خروجی بگیرید. کافیست در بخش ‍‍‍‍‍‍`Pages` در تنظیمات مخزن خودتان گزینه `Build and deployment` را روی `GitHub Actions` تنظیم کنید و در بخش `Actions` با استفاده از ‍`Jekyll` خروچی بگیرید و روی دامنه مورد نظرتان راه‌اندازی کنید.)
+- از آنجا که پلاگین [`jekyll-postfiles`](https://github.com/nhoizey/jekyll-postfiles#compatibility) و [`jekyll-jalali`](https://github.com/mehdisadeghi/jekyll-jalali) در `github pages` پشتیبانی نمی‌شوند امکان استفاده روی گیتهاب وجود ندارد اما میتوانید از [`netlify.com`](https://netlify.com)، [`vercel.com`](https://vercel.com) یا [`surge.sh`](https://surge.sh) استفاده کنید. (به روز رسانی: با توجه به افزوده شدن `jekyll` به `GitHub Actions` می‌توانید از سیمرغ روی گیتهاب هم خروجی بگیرید. کافیست در بخش ‍‍‍‍‍‍`Pages` در تنظیمات مخزن خودتان گزینه `Build and deployment` را روی `GitHub Actions` تنظیم کنید و در بخش `Actions` با استفاده از ‍`Jekyll` خروجی بگیرید و روی دامنه مورد نظرتان راه‌اندازی کنید. می‌توانید نمونه‌ای از این خروجی را [اینجا](https://theme.zmim.ir/) ببینید.)
 
 ## مجوز
 
