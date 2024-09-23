@@ -49,14 +49,19 @@ layout: compress
           {% if page.date %}
           <div class="post-meta">
             <time class="header-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-              {% assign date_format = site.minima.date_format | default: "%d %b، %Y" %}{{ page.date | jdate: date_format }}
+              {% assign date_format = site.minima.date_format | default: "%d %b، %Y" %}{{ page.date | date: date_format }}
             </time>
             <span itemprop="author" itemscope itemtype="https://schema.org/Person">
               <span itemprop="name">{{ site.author.name }}</span>
             </span>
-            <time hidden class="date-modify" datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">
-              {% assign date_format = site.minima.date_format | default: "%d %b، %Y" %}{{ page.date | jdate: date_format }}
-            </time>
+            {% if page.modified %}
+            <div>
+                <time class="date-modify" datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">
+                  {% assign date_format = site.minima.date_format | default: "%d %b، %Y" %}{{ page.modified | date: date_format }}
+                </time>
+                به روز شد.
+            </div>
+            {% endif %}
             <span hidden itemprop="publisher" itemtype="Person">{{ site.author.name }}</span>
             <span hidden itemprop="image">{{ page.image }}</span>
             <span hidden itemprop="mainEntityOfPage">{{ page.excerpt }}</span>
@@ -80,11 +85,6 @@ layout: compress
 
     </main>
 
-    {% if page.modified %}
-      <small class="post-updated-at">به روز رسانی در  
-              {% assign date_format = site.minima.date_format | default: "%d %b، %Y" %}{{ page.modified | jdate: date_format }}
-      </small>
-    {% endif %}
     {% if page.next or page.previous %}
       {% include navigation.html %}
     {% endif %}

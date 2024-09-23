@@ -18,11 +18,13 @@ excerpt: Sorted article by tags.
   <h2 id="{{ name }}">{{ name | upcase }}</h2>
   {%- for post in site.tags[name] -%}
     <article class="post-item" id="results-container">
-      <i class="fa fa-calendar" style="color: #51d994;"></i>
-      <span class="post-item-date">{% assign date_format = site.minima.date_format | default: "%d %b، %Y" %}{{ post.date | jdate: date_format }}</span>
-      <h3 class="post-item-title" style="padding-right: 8px;">
+      <span class="post-item-date">
+        <i class="fa fa-calendar" style="color: #51d994;"></i>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%d %b، %Y" %}{{ post.date | date: date_format }}
+      </span>
+      <h4 class="post-item-title" style="padding-right: 8px;">
         <a href="{{ post.url }}">{{ post.title | escape }}</a>
-      </h3> 
+      </h4> 
     </article>
   {%- endfor -%}
 {%- endfor -%}

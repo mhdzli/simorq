@@ -8,26 +8,26 @@
 
 برای فارسی کردن تاریخ‌ها از پلاگین [`jekyll-jalali`](https://github.com/mehdisadeghi/jekyll-jalali) استفاده کردم که [مهدی صادقی](https://github.com/mehdisadeghi/) گرامی نوشته و کلی مطلب مفید هم در [وبلاگش](https://mehdix.ir/) دارد که اگر تصمیم دارید از Jekyll استفاده کنید حتما بهش سر بزنید.
 
+در آخرین به روز رسانی سیمرغ پلاگین `jekyll-jalali` و اسکریپت‌های فارسی کردن اعداد تاریخ با اسکریپت [`persiandate`](https://github.com/mhdzli/simorq/blob/master/src/assets/js/persiandate.js) جایگزین شدند.
 
-در این تم از فونت‌های [`وزیر متن`](https://github.com/rastikerdar/vazirmatn)  استفاده شده است که از کارهای زیبای آقای [راستی‌کردار](https://github.com/rastikerdar) است که از ایشان بسیار ممنونم و [`Comic Mono`](https://dtinth.github.io/comic-mono-font/) برای کدهای درون متن.
+در این تم از فونت‌های [`وزیر متن`](https://github.com/rastikerdar/vazirmatn) استفاده شده است که از کارهای زیبای آقای [راستی‌کردار](https://github.com/rastikerdar) است که از ایشان بسیار ممنونم و [`Comic Mono`](https://dtinth.github.io/comic-mono-font/) برای کدهای درون متن.
 
 ## قابلیت‌ها
 
--  تم تاریک و روشن
--  پشتیبانی از تاریخ فارسی
--  تغییر ظاهر با استفاده از scss
--  هماهنگ با دسکتاپ و گوشی
--  ساختار مناسب برای عکس‌ها ([`jekyll-postfiles`](https://github.com/nhoizey/jekyll-postfiles))
--  نقشه سایت ([`jekyll-sitemap`](https://github.com/jekyll/jekyll-sitemap))
--  خوراک rss ([`jekyll-feed`](https://github.com/jekyll/jekyll-feed))
--  هایلایت کدها ([`Comic Mono`](https://dtinth.github.io/comic-mono-font/))
--  صفحه بندی پست‌ها
--  آنالیز گوگل اگر دوست دارید استفاده کنید. (نکنید 😠)
--  استفاده از W3C **👽**
--  استفاده از فونت Awesome **👽**
--  سبک و سریع **🚄**
+- تم تاریک و روشن
+- پشتیبانی از تاریخ فارسی
+- تغییر ظاهر با استفاده از scss
+- هماهنگ با دسکتاپ و گوشی
+- ساختار مناسب برای عکس‌ها ([`jekyll-postfiles`](https://github.com/nhoizey/jekyll-postfiles))
+- نقشه سایت ([`jekyll-sitemap`](https://github.com/jekyll/jekyll-sitemap))
+- خوراک rss ([`jekyll-feed`](https://github.com/jekyll/jekyll-feed))
+- هایلایت کدها ([`Comic Mono`](https://dtinth.github.io/comic-mono-font/))
+- صفحه بندی پست‌ها
+- آنالیز گوگل اگر دوست دارید استفاده کنید. (نکنید 😠)
+- استفاده از W3C **👽**
+- استفاده از فونت Awesome **👽**
+- سبک و سریع **🚄**
 - برای افزودن بخش دیدگاه‌ها با استفاده از ماستودون [این پست](https://www.zmim.ir/mastodon-comments/) را بخوانید.
-
 
 ## نصب
 
@@ -67,8 +67,7 @@ scripts/docker_run.sh
 
 ## محدودیت‌ها
 
-- از آنجا که پلاگین  [`jekyll-postfiles`](https://github.com/nhoizey/jekyll-postfiles#compatibility) و  [`jekyll-jalali`](https://github.com/mehdisadeghi/jekyll-jalali)  در `github pages` پشتیبانی نمی‌شوند امکان استفاده  روی گیتهاب وجود ندارد اما میتوانید از  [`netlify.com`](https://netlify.com)، [`vercel.com`](https://vercel.com) یا [`surge.sh`](https://surge.sh) استفاده کنید.
-
+- از آنجا که پلاگین [`jekyll-postfiles`](https://github.com/nhoizey/jekyll-postfiles#compatibility) و [`jekyll-jalali`](https://github.com/mehdisadeghi/jekyll-jalali) در `github pages` پشتیبانی نمی‌شوند امکان استفاده روی گیتهاب وجود ندارد اما میتوانید از [`netlify.com`](https://netlify.com)، [`vercel.com`](https://vercel.com) یا [`surge.sh`](https://surge.sh) استفاده کنید.
 
 ## مجوز
 
@@ -79,6 +78,5 @@ scripts/docker_run.sh
 اگر از این پروژه بهره بردید می‌توانید از آن حمایت کنید:
 
 [![payping](../master/assets/payping.gif)](https://www.payping.ir/@mzeinali)
-
 
 [![hamibash](../master/assets/hamibash.png)](https://www.hamibash.com/mzeinali)

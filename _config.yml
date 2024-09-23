@@ -5,6 +5,7 @@ title: سیمرغ # site title
 description: >- # site description
   یک تم فارسی برای Jekyll.  کد سیمرغ در <a href="https://github.com/mhdzli/simorq" target="_blank" rel="noopener">گیت‌هاب</a>.
 lang: fa # default lang
+date_format: fa-IR # fa-IR || en-US -- set to fa-IR for persian dates
 timezone: Asia/Tehran # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/mhdzli/simorgh # site repo [optional]
@@ -19,21 +20,21 @@ author:
     لینک این پروژه در
     <a href="https://github.com/mhdzli/simorq" target="_blank" rel="noopener">گیت‌هاب</a>.
 
-  username:  your_username # general username
+  username: your_username # general username
   github: your_github_username # github username
   twitter: your_twitter_username # twitter username
   # you can add your accounts of other social media  but you need to edit footer.html in _includes directory and add other sosial media links based on existing  templates
-  
+
   lbry: https://your_instance.address/@your_username # lbry url
   pixelfed: https://your_instance.address/your_username # your pixelfed url
   mastodon: # mastodon urls
     first: https://your_instance.address/@your_username
-    second: 
+    second:
   email: your@email.address # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
-url: "https://example.anything" # your domain 
+url: "https://example.anything" # your domain
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
@@ -100,4 +101,3 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-postfiles
-  - jekyll-jalali
